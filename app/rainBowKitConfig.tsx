@@ -49,7 +49,7 @@ const botMainnet = {
 
 export default getDefaultConfig({
   appName: "Veynt",
-  projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID!,
+  projectId: "", // to be filled
   chains: [botMainnet, botTestnet],
   transports: {
     [botMainnet.id]: http("https://rpc.botchain.ai"),
