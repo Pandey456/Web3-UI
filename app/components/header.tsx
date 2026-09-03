@@ -25,7 +25,7 @@ export default function Header() {
           </Link>
 
           <a
-            href="https://github.com/YOUR_USERNAME/YOUR_REPO"
+            href="https://github.com/Pandey456/VEYNT"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-[#212529] hover:text-[#7fd509]"

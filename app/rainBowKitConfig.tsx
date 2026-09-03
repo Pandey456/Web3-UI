@@ -53,7 +53,7 @@ export default getDefaultConfig({
   chains: [botMainnet, botTestnet],
   transports: {
     [botMainnet.id]: http("https://rpc.botchain.ai"),
-    [botTestnet.id]: http("https://rpc.botchain.ai"),
+    [botTestnet.id]: http("https://rpc.bohr.life"),
   },
   ssr: true,
 });
