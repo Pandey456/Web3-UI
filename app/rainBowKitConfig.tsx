@@ -49,7 +49,7 @@ const botMainnet = {
 
 export default getDefaultConfig({
   appName: "Veynt",
-  projectId: "", // to be filled
+  projectId: "3143495ec76e1e9623c4f5cd2a895e32",
   chains: [botMainnet, botTestnet],
   transports: {
     [botMainnet.id]: http("https://rpc.botchain.ai"),
